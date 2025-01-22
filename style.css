@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 220px 20px 220px;
+ }  
+
+.left-div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.left-div span{
+    font-size: 32px;
+    font-weight: bold;
+}
+.middle-div ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.four{
+    text-decoration: none;
+    color: orange;
+}
+.one{
+    text-decoration: none;
+    color: skyblue;
+    margin-left: 51px;
+}
+.two{
+    text-decoration: none;
+    color: #05D4DF;
+    margin-left: 51px;
+}
+.three{
+    text-decoration: none;
+    color: #5D58EF;
+    margin-left: 51px;
+}
+.btn1{
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFF;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
+.enrollment{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 220px 20px 220px;
+}
+.enroll-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.empower{
+    color: orange;
+    font-weight: bold;
+}
+.age{
+    color: skyblue;
+    opacity: 100%;
+}
+.enroll-text{
+    font-size: 20px;
+}
+.enroll-left{
+    padding: 122px 0px 122px 0px;
+
+}
+.btn2{
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFF;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
