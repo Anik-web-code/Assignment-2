@@ -93,3 +93,45 @@ body{
     border: none;
     border-radius: 12px;
 }
+.curriculum{
+    margin: 20px 0px 20px 0px;
+    height: 879px;
+    border: 1px solid black;
+    background-image: url(assets/bg.png);
+    
+}
+.curriculum-title{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.curriculum-card{
+    width: 1160px;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card-1{
+    width: 287px;
+    height: 396px;
+    border: 1px solid aqua;
+    text-align: center;
+    padding: 40px;
+    
+}
+.card-1 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-1 p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.card-1 button{
+    font-size: 15px;
+    color: #64C8FF;
+    border: none;
+    background-color: none;
+}
