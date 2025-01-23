@@ -61,6 +61,7 @@ body{
     border-radius: 12px;
 }
 .enrollment{
+    
     display: flex;
     justify-content: space-between;
     margin: 20px 220px 0px 220px;
@@ -96,7 +97,7 @@ body{
 }
 .curriculum{
     margin: 0px 0px 20px 0px;
-    height: 879px;
+    
     background-image: url(assets/bg.png);
     text-align: center;
     
@@ -110,15 +111,15 @@ body{
     
 }
 .curriculum-card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 20px;
     justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
-    height: 482px;
+    
 }
 
 
@@ -243,7 +244,7 @@ body{
 .card-title {
     font-size: 1.2rem;
     font-weight: bold;
-    margin: 50px 0;
+    margin: 0px 0;
 }
 
 .card-text {
@@ -255,7 +256,7 @@ body{
     align-items: center;
     width: 1160px;
     margin: 20px 250px 0px 190px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
    
 }
 .story-cards {
@@ -286,12 +287,12 @@ body{
 .story-2{
     border-radius: 16px;
     background-color: #FFFFFF;
-    transition: transform 0.2s ease-in-out 0.1s;
+    transition: transform 0.2s ease-in-out 0.1s; 
 }
-.story-2:hover{
+ .story-2:hover{
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
+} 
 .story-2 img{
     border-radius: 12px 12px 0px 0px;
     background-color: #FFFFFF;
@@ -306,6 +307,7 @@ body{
     align-content: center;
     position: absolute  ;
     translate: 0px -35px;
+    
 
 }
 .card2-content {
@@ -349,15 +351,16 @@ body{
 }
 
 .footer{
-    display: flex;
+    
     justify-content: space-between;
+    display: flex;
     width: 1100 px;
     padding: 148px 185px 148px 185px;
     background-color: #01ACFD;
     color: #FFFFFF;
-
-
 }
+
+
 
 .left img{
     height: 82px;
@@ -381,6 +384,96 @@ body{
     font-size: 26px;
     font-weight: bold;
 }
-.PH{
-    
+marquee{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.nav2{
+    display: none;
+}
+.nav2 p{
+    font-size: 30px;
+}
+hr{
+    border: 1px solid orange;
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .nav{
+        display: none;
+    }
+    .btn3{
+        display: none;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 15px 5px 15px;
+    }
+    .nav2 img{
+        height: 46px;
+        width: 46px;
+    }
+    .nav2 p{
+        margin: 5px 5px 5px 5px;
+    }
+    hr{
+        display: flex;
+    }
+    .enrollment{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5px 5px 5px 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .left-card{
+        display: none;
+    }
+    .curriculum{
+        align-items: center;
+    }
+    .right-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: left;
+        grid-template-rows: repeat(2, 1fr);
+        
+        
+    }
+    .story-cards{
+        margin: 0px;
+        padding: 0px;
+    }
+    .story-2{
+        margin-left: 0px;
+        width: auto;
+        text-wrap: wrap;
+    }
+    .stories{
+        margin: 0px;
+        text-align: left;
+        
+    }
+    .stories h1{
+        margin: 0px 110px 0px 110px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .btn4{
+        margin: 20px 98px 0px 158px;
+    }
+
+
+
 }
