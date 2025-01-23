@@ -254,7 +254,8 @@ body{
     text-align: center;
     align-items: center;
     width: 1160px;
-    margin: 20px 220px 20px 220px;
+    margin: 20px 250px 0px 190px;
+    padding-bottom: 70px;
    
 }
 .story-cards {
@@ -337,8 +338,49 @@ body{
     width: 197px;
     height: 50px;
     border-radius: 12px;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 0px 0px;
     font-size: 20px;
     font-weight: bold;
 
+}
+.left{
+    align-content: center;
+    display: inline;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1100 px;
+    padding: 148px 185px 148px 185px;
+    background-color: #01ACFD;
+    color: #FFFFFF;
+
+
+}
+
+.left img{
+    height: 82px;
+    width: 300px;
+    border: none;
+    
+}
+.middle h4{
+    list-style: none;
+    text-decoration: none;
+    gap: 5px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+.middle h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.right h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+.PH{
+    
 }
