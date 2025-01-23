@@ -219,4 +219,126 @@ body{
     border: none;
     margin-top: 60px;
 }
-            
+.card-content {
+    padding: 20px;
+}
+
+.date {
+    display: inline-block;
+    background: #00bcd4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 48px;
+    margin-bottom: 10px;
+    width: 174px;
+    height: 48px;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    translate: -229px -55px;
+
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+.stories{
+    text-align: center;
+    align-items: center;
+    width: 1160px;
+    margin: 20px 220px 20px 220px;
+   
+}
+.story-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.right-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(2, auto);
+}
+.left-card{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    transition: transform 0.2s ease-in-out 0.1s;
+}
+.left-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.left-card img{
+    border-radius: 16px 16px 0px 0px;
+}
+.story-2{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    transition: transform 0.2s ease-in-out 0.1s;
+}
+.story-2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.story-2 img{
+    border-radius: 12px 12px 0px 0px;
+    background-color: #FFFFFF;
+
+}
+.date2{
+    height: 38px;
+    width: 174px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    border-radius: 47px;
+    align-content: center;
+    position: absolute  ;
+    translate: 0px -35px;
+
+}
+.card2-content {
+    padding: 10px;
+    margin-top: 0px;
+}
+.card2-title{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.stories > h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 80px;
+
+}
+.story-container{
+    background-image: url(assets/bg.png);
+    background: linear-gradient(
+        to bottom,
+        #F1F1F3,
+        #FFD580
+    );
+    
+}
+.btn4{
+    background-color: black;
+    color: #FFFFFF;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 50px 0px 50px 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
